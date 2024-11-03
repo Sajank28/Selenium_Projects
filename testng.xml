@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/The Testing Academy/5. Selenium Testing/LearningSelenium">
+        <classes>
+            <class name="com.seleniumlearning.assignments.Assignment1">
+                <methods>
+                    <include name="assignment1"/>
+                </methods>
+            </class>
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium001">-->
+<!--                <methods>-->
+<!--                    <include name="main"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium002">-->
+<!--                <methods>-->
+<!--                    <include name="test_001"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium003">-->
+<!--                <methods>-->
+<!--                    <include name="testMethod"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium004">-->
+<!--                <methods>-->
+<!--                    <include name="testMethod"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium005">-->
+<!--                <methods>-->
+<!--                    <include name="navigateDemo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.seleniumlearning.ex_selenium.Selenium12">-->
+<!--                <methods>-->
+<!--                    <include name="testcase"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

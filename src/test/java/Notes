@@ -1,0 +1,30 @@
+Selenium 3.0 -  JSON wire protocol
+We have to set property and path for drivers
+
+Selenium 4.8 - W3C protocol
+No need to set any property
+
+SearchContext (Interface)
+1.findElements()
+2.findElement()
+
+WebDriver (Interface) extends SearchContext (Interface)
+1. abstract methods
+get(String url)
+close()
+quit()
+getWindowHandle
+
+2. nested interfaces
+window
+navigation
+timeout
+
+Remote Webdriver (class) implements webDriver (Interface)
+FullyImplemented class
+
+Navigate Commands
+1. Get()
+2. Navigate.to()
+    a. back()
+    b. forward()
